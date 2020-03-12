@@ -1,0 +1,10 @@
+stages:
+- name: Deploy App
+  steps:
+  - applyAppConfig:
+      catalogTemplate: cattle-global-data:helm3-argo
+      version: 0.7.1
+      name: Stuff
+      targetNamespace: default
+timeout: 60
+notification: {}
