@@ -4,7 +4,7 @@ stages:
   - applyAppConfig:
       catalogTemplate: cattle-global-data:helm3-argo
       version: 0.7.1
-      name: Stuff
+      name: helm3test
       targetNamespace: default
 timeout: 60
 notification: {}
