@@ -2,9 +2,9 @@ stages:
 - name: Deploy
   steps:
   - applyAppConfig:
-      catalogTemplate: p-27c2x:helm2-argo
-      version: 0.7.2
-      name: helm2-argo
+      catalogTemplate: cattle-global-data:library-chartmuseum
+      version: 2.3.1
+      name: helm2-chartmuseum
       targetNamespace: default
 timeout: 60
 notification: {}
