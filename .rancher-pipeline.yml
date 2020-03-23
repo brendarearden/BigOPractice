@@ -2,8 +2,8 @@ stages:
 - name: Deploy
   steps:
   - applyAppConfig:
-      catalogTemplate: p-27c2x:helm3-argo
-      version: 0.7.2
+      catalogTemplate: p-27c2x:helmstuff-chartmuseum
+      version: 2.3.1
       name: testing
       targetNamespace: default
 timeout: 60
