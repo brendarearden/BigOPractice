@@ -2,7 +2,7 @@ stages:
 - name: Deploy
   steps:
   - applyAppConfig:
-      catalogTemplate: p-ntccd:helm3-argo
+      catalogTemplate: p-27c2x:helm3-argo
       version: 0.7.2
       name: testing
       targetNamespace: default
